@@ -9,6 +9,8 @@ class VentanaManager:
         self.ventana_principal =ventana_home.VentanaHome(self)
         self.nueva_ventana = None
 
+
+    
     def iniciar_aplicacion(self):
         self.ventana_principal.iniciar_aplicacion()
 

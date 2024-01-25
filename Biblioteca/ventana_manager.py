@@ -12,6 +12,8 @@ class VentanaManager:
     def iniciar_aplicacion(self):
         self.ventana_principal.iniciar_aplicacion()
 
+        
+
     def abrir_nueva_ventana(self):
         self.nueva_ventana = ventana_agregar_libros.AgregarLibros(self)
         self.ventana_principal.ocultar_ventana()

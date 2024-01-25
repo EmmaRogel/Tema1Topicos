@@ -9,8 +9,6 @@ class VentanaManager:
         self.ventana_principal =ventana_home.VentanaHome(self)
         self.nueva_ventana = None
 
-
-    
     def iniciar_aplicacion(self):
         self.ventana_principal.iniciar_aplicacion()
 
@@ -38,6 +36,7 @@ class VentanaManager:
         self.ventana_principal.mostrar_ventana()
         if self.nueva_ventana:
             self.nueva_ventana = None
+    viann=0
 
 Lista_Prestamos=[]
 if __name__ == "__main__":

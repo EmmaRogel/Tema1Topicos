@@ -36,7 +36,7 @@ class VentanaManager:
         self.ventana_principal.mostrar_ventana()
         if self.nueva_ventana:
             self.nueva_ventana = None
-
+    bruno=1232
 Lista_Prestamos=[]
 if __name__ == "__main__":
     ventana_manager = VentanaManager()
